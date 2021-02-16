@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Black</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 100vh;
+            background-image: url(blackbackground2.jpg);
+            background-size: 100% 100%;
+            object-fit: cover;
+            font-family: ;
+        }
+
+        .logo {
+            width: 20%;
+            text-align: center;
+        }
+
+        .logo img {
+            height: 100px;
+        }
+
+        .menu {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .menulist {
+            width: 80%;
+            text-align: right;
+            padding-right: 15px;
+        }
+
+        .menulist li {
+            display: inline-block;
+            text-transform: uppercase;
+            list-style: none;
+            letter-spacing: 3px;
+            padding-left: 60px;
+        }
+
+        .menulist li a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, .8);
+        }
+
+        .menulist li a:hover {
+            color: orange;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            color: rgba(255, 255, 255, .8);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            letter-spacing: 4px;
+            font-weight: 500;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 6px;
+        }
+
+        button {
+            padding: 7px 37px;
+            border: 1px solid white;
+            outline: none;
+margin-right: 15px;
+            background: transparent;
+            
+        }
+
+        button a {
+            text-decoration: none;color:rgba(255,255,255,.8);
+            font-size:17px;
+        }
+        .btn2{background: orange;}
+
+        .btn1:hover {
+            background: orange;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <img src="moon.jpg" alt="moon logo">
+            </div>
+            <div class="menulist">
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/">images</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/">About us</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/">Contact us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+
+            <h2>WEBDEVELOPER/CODER/LEARNER</h2>
+            <h1>AGROTI CHOWDHURY</h1>
+            <button class="btn1"><a href="run.html">Agroti Blog</a></button>
+            <button class="btn2"><a href="run.html">Lighten Up</a></button>
+
+        </div>
+    </header>
+</body>
+
+</html>
